@@ -85,7 +85,8 @@
 
 import React, { useState, useContext } from "react";
 import "./Navbar.css";
-import { assets } from "../../../../../food-del-assets/assets/frontend_assets/assets";
+// import { assets } from "../../../../../food-del-assets/assets/frontend_assets/assets";
+import { assets } from "../../assets/asset";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 
