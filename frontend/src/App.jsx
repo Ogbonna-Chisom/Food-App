@@ -9,9 +9,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import LoginPopup from './components/LoginPopup/LoginPopup'
-// import Footer from './components/Footer/Footer'
 import Reservation from './pages/Reservation/Reservation'
-
 import AppDownload from './components/AppDownload/AppDownload'
 import Footer from './components/Footer/Footer'
 
@@ -35,7 +33,6 @@ const App = () => {
         <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/menu' element={<Menu />} />
-        {/* <Route path='/about' element={<About/>} /> */}
         <Route path='/about' element={<About/>} />
         <Route path='/reservation' element={<Reservation/>} />
         <Route path='/cart' element={<Cart/>} />
@@ -43,7 +40,6 @@ const App = () => {
         <Route path='/contact' element={<Contact/>} />
         </Routes>
       </div>
-      {/* <Footer/> */}
        <AppDownload />
       <Footer />
     </>
