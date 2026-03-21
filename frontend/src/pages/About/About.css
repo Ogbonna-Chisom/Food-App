@@ -1,7 +1,5 @@
 
 .about {
-  /* padding: 80px 120px; */
-  /* background-color: #686765; */
   padding: 20px 8%; 
 }
 
@@ -41,10 +39,8 @@
 /* Left Side */
 .about-left img {
   width: 420px;
-
   max-width: 100%;
   height: auto;
-
 
   border-radius: 20px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
@@ -101,7 +97,6 @@
 .about-under h2 {
   font-size: 20px;
   margin-bottom: 15px;
-  /* color: #222; */
 }
 
 .about-under img {
