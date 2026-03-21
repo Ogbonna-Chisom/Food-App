@@ -305,52 +305,38 @@
 
 @media(max-width:768px) {
 
-    .menu-section{
-        flex-direction:column;
-    }
-
-
-  .menu-left, .menu-right {
-    max-width: 100%;
-  }
-
-  .menu-left h1,
-  .menu-left p {
-    left: 15px;
-    bottom: auto;
-    top: 20px;
-  }
-
-  .menu-left h1 {
-    font-size: 1.8rem;
-  }
-
-  .menu-left p {
-    font-size: 0.95rem;
+  .menu-section{
+    padding: 40px 20px;
+    flex-direction:column;
+    height:auto;
   }
 
 
+  .menu-left{
+    width:100%;
+    height:auto;
+    position:relative;
+  }
 
-    /* .menu-left{
-        width:100%;
-        height:400px;
-        position:relative;
-    }
+
+   .menu-left img {
+    width: 100%;
+    height: auto; /* ensures image scales correctly */
+    object-fit: cover; /* optional, crops nicely */
+  }
 
     .menu-right{
-        width:100%;
-    } */
+      width:100%;
+    } 
+
 
     .menu-grid {
     grid-template-columns: 1fr 1fr;
   }
 
-    .menu-container{
-        width:85%;
-    }
-
-
-  
+  .menu-container{
+    width:100%;
+  }
 
 
 }
